@@ -1,2 +1,45 @@
 
+/* ========Vincent'sSection========== */
+/* Styles for the Courses Section of the Website  */
+
+/* Courses Main Page Start Section*/
+.courseMain{
+    padding: 20px;
+}
+
+.courseMainTop{
+    display: flex;
+    gap: 30px;
+}
+
+.courseMainTop-Left{
+    display: flex;
+
+}
+
+.video > iframe{
+    border-radius: 25px;
+}
+
+.courseMainBottom{
+    padding-top: 80px;
+
+}
+
+.courseMainBottom > h2{
+    padding-bottom: 30px;
+}
+
+.coursesDetailsMain{
+    display: flex;
+    box-sizing: border-box;
+    gap: 2rem;
+}
+
+.courseDetails{
+
+}
+
+
+/* Courses Main Page End Section*/
 
