@@ -7,39 +7,68 @@
     padding: 20px;
 }
 
+.courseMain > h1{
+    padding-bottom: 15px;
+    font-size: large;
+}
+
 .courseMainTop{
     display: flex;
     gap: 30px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.courseMainTop-Left{
-    display: flex;
+.courseMainTop-Right{
+    padding-right: 200px;
+}
 
+.courseMainTop-Right > p{
+    line-height: 1rem;
+    font-size: 11px;
 }
 
 .video > iframe{
     border-radius: 25px;
 }
 
+.progressBar{
+    width: 560px;
+    margin-top: 10px;
+    height: 7px;
+    background-color: var(--icons-color-navbar);
+    border-radius: 15px;
+}
+
+/* .videoPlayed{
+    width: 500px;
+    margin-top: 10px;
+    height: 7px;
+    /* border-radius: 15px; */
+    /* color: var(--secondary-color); */
+} */
+
 .courseMainBottom{
     padding-top: 80px;
 
 }
 
-.courseMainBottom > h2{
+.courseMainBottom > h1{
     padding-bottom: 30px;
+    padding-top: 60px;
+    font-size: large;
 }
 
 .coursesDetailsMain{
     display: flex;
     box-sizing: border-box;
     gap: 2rem;
+    margin-bottom: 80px;
 }
-
-.courseDetails{
-
-}
-
-
 /* Courses Main Page End Section*/
 
+
+/* Courses Purchase Page Start Section*/
+
+
+/* Courses Purchase Page end Section*/
