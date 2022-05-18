@@ -40,22 +40,14 @@
     border-radius: 15px;
 }
 
-/* .videoPlayed{
-    width: 500px;
-    margin-top: 10px;
-    height: 7px;
-    /* border-radius: 15px; */
-    /* color: var(--secondary-color); */
-} */
-
 .courseMainBottom{
-    padding-top: 80px;
+    padding-top: 50px;
 
 }
 
 .courseMainBottom > h1{
     padding-bottom: 30px;
-    padding-top: 60px;
+    /* padding-top: 10px; */
     font-size: large;
 }
 
@@ -65,10 +57,44 @@
     gap: 2rem;
     margin-bottom: 80px;
 }
+
+.courseDetails{
+    padding-top: 10px;
+}
 /* Courses Main Page End Section*/
 
+/* ====================================== */
+
+/* Courses Stock Analysis Page Start Section*/
+
+
+/* Courses Stock Analysis Page end Section*/
+
+/* ====================================== */
 
 /* Courses Purchase Page Start Section*/
+.coursePurchase{
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.lockedCourseTittles{
+    background-color: var(--icons-color-navbar);
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lockedCourseDetails{
+    display: flex;
+    background-color: var(--color-white);
+    gap: 1rem;
+}
+
+.coursePurchaseDetails >h1{
+    font-size: large;
+    padding-top: 10px;
+}
 
 /* Courses Purchase Page end Section*/
