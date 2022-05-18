@@ -8,3 +8,9 @@
     padding-top: 10px;
     padding-bottom: 5px;
 }
+.buttton-section > button{
+    background: #F17425;
+    color: white;
+    padding: 5px;
+
+}
