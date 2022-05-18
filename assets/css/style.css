@@ -81,6 +81,7 @@
 /* ====================================== */
 
 /* Courses Stock Analysis Page Start Section*/
+
 .stockAnalysisTop{
     display: flex;
     justify-content: space-between;
@@ -89,22 +90,81 @@
 
 .stockAnalysisTop-Right{
     background-color: #f2f2f2;
-    margin-right: 150px;
-    width: 350px;
+    margin-right: 180px;
+    width: 330px;
     border-radius: 8px;
+    height: fit-content;
+    margin-top: 30px;
 }
 
 .stockAnalysis-rightTitle{
     display: flex;
+    margin: 10px;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.stockContent > h1{
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.active-link{
+    color: var( --secondary-color);
+}
+
+hr{
+    width: 260px;
+    margin-left: 40px;
+}
+
+.stockVidDetails{
+    margin-top: 20px;
+    line-height: 1rem;
+}
+
+.stockVidDetails > p, h3{
+    margin-left: 25px;
+    line-height: 1.3rem;
 }
 
 .otherCourses{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.otherCoursesContent{
+    line-height: 1rem;
+    margin-right: 20px;
+}
+
+.otherCoursesContent-1{
+    margin-right: 45px;
+}
+
+.otherCoursesContent-2{
+    margin-right: 35px;
+}
+
+.stockAnalysisBottom{
+    background-color: #f2f2f2;
+    max-width: 450px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.stockAnalysisBottom-Left{
+    display: flex;
+    justify-content: space-between;
     background-color: #ffff;
     margin: 10px;
-    padding: 15px;
-    border-radius: 6px;
+    padding: 10px;
 }
 
 /* Courses Stock Analysis Page end Section*/
@@ -172,5 +232,4 @@
     border-radius: 6px;
     font-size: 15px;
 }
-
 /* Courses Purchase Page end Section*/
