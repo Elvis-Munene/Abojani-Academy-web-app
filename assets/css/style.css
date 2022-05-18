@@ -1,8 +1,8 @@
 
 .picture-text-price{
     display: flex;
-    justify-content: space-between;
-    padding-top: 40vh;
+    justify-content: space-evenly;
+    padding-top: 30vh;
 }
 .image-section{
     padding-top: 10px;
@@ -12,5 +12,45 @@
     background: #F17425;
     color: white;
     padding: 5px;
+
+}
+.price {
+height: 19px;
+width: 39px;
+left: 1015px;
+top: 358px;
+border-radius: nullpx;
+
+}
+.kes{
+height: 40px;
+width: 183px;
+left: 1014px;
+top: 389px;
+border-radius: nullpx;
+padding: 20px;
+color: black;
+}
+.discount{
+height: 19px;
+width: 68px;
+left: 1015px;
+top: 454px;
+border-radius: nullpx;
+padding: 20px;
+color: black;
+}
+.percentage-off{
+height: 19px;
+width: 61px;
+left: 1017px;
+top: 498px;
+border-radius: nullpx;
+padding: 20px;
+color: red;
+
+}
+.buttton-section{
+    padding-top: 20px;
 
 }
