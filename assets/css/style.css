@@ -1,3 +1,4 @@
+/* This styles home */
 .all-picture-text{
     background-color: white;
 }
@@ -64,8 +65,38 @@ width: 100%;
 .personal-finance{
  font-size: xx-small;
  padding: auto;
+
 }
 
 .investing-masterclass{
     font-size: xx-small;
+}
+.financial-analysis{
+    font-size: xx-small;
+}
+.real-estate-masterclass{
+    font-size: xx-small;
+}
+/* This styles profile */
+.username-email{
+    font-size: medium;
+    font-weight: 400;
+    
+}
+
+.profile{
+    margin-left: 4rem;
+}
+.collinsbii{
+    background-color:  #E4E4E4;
+    
+}
+.gmail{
+    background-color: #E4E4E4;
+    
+}
+.logout > button{
+    background-color: #F17425;
+    color: white;
+
 }
