@@ -171,6 +171,7 @@ hr{
     max-width: 450px;
     border-radius: 8px;
     padding: 10px;
+    object-fit: contain;
 }
 
 .stockAnalysisBottom-Left{
