@@ -789,7 +789,8 @@ h3 {
 
 .all-picture-text {
   background: #f7f7f7;
-}
+
+  }
 
 .all-picture-text{
     background: #f7f7f7;
@@ -1073,7 +1074,11 @@ h3 {
 .image-plus-login{
     display: flex;
     padding-bottom: 20px;
+   
+  }
+
 }
+
 
 .image-pain {
   padding-right: 20px;
