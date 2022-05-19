@@ -3,6 +3,7 @@ document.getElementById("btn-buy").onclick = function () {
     location.href = "../pages/add-to-cart.html";
 
 
+
 document.getElementById("join-now-btn").onclick = function () {
     location.href = "../pages/communitypage2.html";
 };
