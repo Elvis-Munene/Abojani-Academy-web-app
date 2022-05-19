@@ -177,6 +177,7 @@ h3 {
 hr {
   width: 260px;
   margin-left: 40px;
+}
 #btn-all{
     width: 100%;
     color: #f17425;
@@ -788,6 +789,7 @@ h3 {
 
 .all-picture-text {
   background: #f7f7f7;
+
   }
 
 .all-picture-text{
@@ -1072,7 +1074,11 @@ h3 {
 .image-plus-login{
     display: flex;
     padding-bottom: 20px;
+   
   }
+
+}
+
 
 .image-pain {
   padding-right: 20px;
