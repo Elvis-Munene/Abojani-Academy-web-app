@@ -3,9 +3,7 @@
 /* Styles for the Courses Section of the Website  */
 
 /* Courses Main Page Start Section*/
-.courseMain{
-    padding: 20px;
-}
+
 
 .courseMain > h1{
     padding-bottom: 15px;
@@ -20,12 +18,16 @@
 }
 
 .courseMainTop-Right{
-    padding-right: 200px;
+    padding-right: 180px;
+}
+
+.courseMainTop-Right > p, h3{
+    line-height: 1rem;
+    font-size: 11px;
 }
 
 .courseMainTop-Right > p{
-    line-height: 1rem;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .video > iframe{
@@ -33,16 +35,25 @@
 }
 
 .progressBar{
+    width: 550px;
+    margin-top: 10px;
+    height: 7px;
+    background-color: #a6a6a6;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.videoPlayed{
     width: 560px;
     margin-top: 10px;
     height: 7px;
-    background-color: var(--icons-color-navbar);
+    background-color: #f17425;
+    width: 75%;
     border-radius: 15px;
 }
 
 .courseMainBottom{
     padding-top: 50px;
-
 }
 
 .courseMainBottom > h1{
@@ -72,11 +83,7 @@
     text-decoration: none;
     color: black;
 }
-
-
 /* Courses Main Page End Section*/
-
-
 
 /* ====================================== */
 
@@ -124,8 +131,13 @@ hr{
 }
 
 .stockVidDetails > p, h3{
-    margin-left: 25px;
+    /* margin-left: 25px; */
     line-height: 1.3rem;
+}
+
+.stockVidDetails > p{
+    /* margin-left: 25px; */
+    font-size: 12px;
 }
 
 .otherCourses{
@@ -146,10 +158,12 @@ hr{
 
 .otherCoursesContent-1{
     margin-right: 45px;
+    line-height: 1rem;
 }
 
 .otherCoursesContent-2{
     margin-right: 35px;
+    line-height: 1rem;
 }
 
 .stockAnalysisBottom{
@@ -168,8 +182,6 @@ hr{
 }
 
 /* Courses Stock Analysis Page end Section*/
-
-
 
 /* ====================================== */
 
@@ -220,9 +232,10 @@ hr{
 
 .coursePurchaseDetails > p{
     line-height: 1rem;
+    font-size: 12px;
 }
 
-.btn-buy{
+#btn-buy{
     background-color: var( --secondary-color);
     color: var(--color-white);
     border: none;
@@ -231,5 +244,11 @@ hr{
     height: 40px;
     border-radius: 6px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+#btn-buy:hover{
+   background-color: #6dc77a;
+   color: black;
 }
 /* Courses Purchase Page end Section*/
