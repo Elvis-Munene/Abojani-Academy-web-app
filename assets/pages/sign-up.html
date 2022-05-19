@@ -11,26 +11,32 @@
 </head>
 <body>
     <section class="signup">
-        <div class="main-image-container">
+        <!-- <div class="main-image-container">
             <img src="../images/main-image-signup.png" alt="">
-        </div>
+        </div> -->
         <div class="signup-container">
             <div class="logo-container">
                 <img src="../images/Abojani-Academy-logo.png" alt="">
             </div>
             <div class="signup-form-container">
-                <form class="signup-form" action="">
-                    <input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br>
+                <form class="signup-form" id="form" action="thank-you.html">
+                    <div class="errors">
+                        <h3 class="error-title">Error</h3>
+                        <ul class="errors-list "></ul>
+                    </div>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name"><br>
                     <input type="text" id="email" name="email" placeholder="yourname@example.com" required><br>
+                    <input type="password" id="passwordconfirmation" name="password" placeholder="password" required><br>
                     <input type="password" id="password" name="password" placeholder="password" required><br>
-                    <input type="password" id="password" name="password" placeholder="password" required><br>
+                    <input type="checkbox" id="terms" name="terms">Agree to terms?<br>
                     <input class="submit-btn" type="submit" value="Sign up">
-                    <a href="./log-in.html"><p class="log-in-text">Already have an account?<span> Log in</span></p></a> 
+                    <a class="login-form" href="./log-in.html"><p class="log-in-text">Already have an account?<span> Log in</span></p></a>                     
                   </form> 
             </div>
 
         </div>
     </section>
+    <script src="../js/script.js"></script>
     
 </body>
 </html>
