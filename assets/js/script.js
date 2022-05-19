@@ -6,9 +6,11 @@ document.getElementById("btn-buy").onclick = function () {
 
 
 
+
 document.getElementById("btn-watch").onclick = function () {
     location.href = "../pages/coursespage2.html";
 }
+
 
 
 
