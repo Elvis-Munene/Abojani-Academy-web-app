@@ -819,21 +819,43 @@ width: 100%;
     font-weight: 400;
     
 }
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile{
-    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 40%;
+    background-color: #f2f2f2;
+    margin-top: 5rem;
+    border-radius: 0.6rem;
+    padding: 3rem 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
-.collinsbii{
-    background-color:  #E4E4E4;
-    
+
+.profile-details > p {
+  padding: 0.6rem 0.6rem;
+  text-align: start;
+  font-size: 0.6rem;
+
 }
-.gmail{
-    background-color: #E4E4E4;
-    
+#edit-background {
+  background-color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
-.logout > a > button{
+
+.logout > a > button {
     background-color: #F17425;
     color: white;
+    border: none;
+    padding: 0.8rem 2rem;
 
 }
 
