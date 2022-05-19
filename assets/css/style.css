@@ -5,9 +5,11 @@
 
 /* Courses Main Page Start Section*/
 
+.mylink{
+    font-size: 14px;
+}
 .courseMain{
     width: 100%;
-
 }
 
 .courseMain > h1{
@@ -17,7 +19,7 @@
 
 .courseMainTop{
     display: flex;
-    gap: 30px;
+    gap: 4rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -93,6 +95,9 @@
 /* ====================================== */
 
 /* Courses Stock Analysis Page Start Section*/
+.stockAnalysis{
+    width: 100%;
+}
 
 .stockAnalysisTop{
     display: flex;
@@ -211,6 +216,8 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    gap: 3rem;
+    width: 100%;
 
 }
 
@@ -246,6 +253,7 @@ hr{
     padding-top: 10px;
 }
 
+
 .instructorsSection{
     display: flex;
     gap: 5rem;
@@ -272,7 +280,25 @@ hr{
    background-color: #6dc77a;
    color: black;
 }
+
+#btn-watch{
+    background-color: var( --secondary-color);
+    color: var(--color-white);
+    border: none;
+    padding: 7px;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#btn-watch:hover{
+   background-color: #6dc77a;
+   color: black;
+}
 /* Courses Purchase Page end Section*/
+
 
 /* This styles home */
 .all-picture-text{
@@ -710,6 +736,7 @@ hr{
 
 
 /* add-to-cart.html */
+
 .all-picture-text{
     background: #f7f7f7;
 
