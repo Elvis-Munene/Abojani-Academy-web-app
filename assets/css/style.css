@@ -5,6 +5,12 @@
 
 /* Courses Main Page Start Section*/
 
+.mylink{
+    font-size: 14px;
+}
+.courseMain{
+    width: 100%;
+}
 
 .courseMain > h1{
     padding-bottom: 15px;
@@ -13,7 +19,7 @@
 
 .courseMainTop{
     display: flex;
-    gap: 30px;
+    gap: 4rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -38,7 +44,7 @@
 .progressBar{
     width: 550px;
     margin-top: 10px;
-    height: 7px;
+    height: 5px;
     background-color: #a6a6a6;
     width: 100%;
     border-radius: 15px;
@@ -47,7 +53,7 @@
 .videoPlayed{
     width: 560px;
     margin-top: 10px;
-    height: 7px;
+    height: 5px;
     background-color: #f17425;
     width: 75%;
     border-radius: 15px;
@@ -89,6 +95,9 @@
 /* ====================================== */
 
 /* Courses Stock Analysis Page Start Section*/
+.stockAnalysis{
+    width: 100%;
+}
 
 .stockAnalysisTop{
     display: flex;
@@ -99,7 +108,7 @@
 .stockAnalysisTop-Right{
     background-color: #f2f2f2;
     margin-right: 180px;
-    width: 330px;
+    width: 340px;
     border-radius: 8px;
     height: fit-content;
     margin-top: 30px;
@@ -119,6 +128,32 @@
 
 .active-link{
     color: var( --secondary-color);
+}
+
+#btn-all{
+    width: 100%;
+    color: #f17425;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#btn-enrolled{
+    color: #40b551;
+    border: none;
+
+}
+
+#btn-all:hover{
+    width: 100%;
+    color: #40b551;
+    border: none;
+    padding: 5px;
+}
+
+#btn-enrolled:hover{
+    color: #f17425;
+    border: none;
 }
 
 hr{
@@ -192,6 +227,8 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    gap: 3rem;
+    width: 100%;
 
 }
 
@@ -227,6 +264,7 @@ hr{
     padding-top: 10px;
 }
 
+
 .instructorsSection{
     display: flex;
     gap: 5rem;
@@ -253,7 +291,26 @@ hr{
    background-color: #6dc77a;
    color: black;
 }
+
+#btn-watch{
+    background-color: var( --secondary-color);
+    color: var(--color-white);
+    border: none;
+    padding: 10px;
+    width: 170px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#btn-watch:hover{
+   background-color: #6dc77a;
+   color: black;
+}
 /* Courses Purchase Page end Section*/
+
 
 /* This styles home */
 .all-picture-text{
@@ -691,6 +748,7 @@ hr{
 
 
 /* add-to-cart.html */
+
 .all-picture-text{
     background: #f7f7f7;
 
