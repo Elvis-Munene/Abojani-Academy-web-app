@@ -4,6 +4,17 @@ document.getElementById("btn-buy").onclick = function () {
 }
 
 
+
+
+
+document.getElementById("btn-watch").onclick = function () {
+    location.href = "../pages/coursespage2.html";
+}
+
+
+
+
+
 document.getElementById("join-now-btn").onclick = function () {
     location.href = "../pages/communitypage2.html";
 };

@@ -36,42 +36,64 @@
       </div>
     </section>
     <section class="main-content__section">
-        
-        <!-- This is the side menu -->
-        <sidebar class="menu">
-            <div class="menu__container">
-                <ul class="menu-item__list">
-                    <li class="menu-item"><a class="menu-item__link"  href="./home.html"><i class="fa-solid fa-house menu-icon"></i>Home</a></li>
-                    <li class="menu-item"><a class="menu-item__link" href="./courses.html"><i class="fa-solid fa-chalkboard-user menu-icon"></i>Courses</a></li>
-                    <li class="menu-item"><a class="menu-item__link" href="./community.html"><i class="fa-solid fa-users-line menu-icon"></i>Community</a></li>
-                    <hr>
-                    <li class="menu-item menu-item-active"><a class="menu-item__link" id="menu-item__link-active" href="#"><i class="fa-solid fa-user fa-solid-active"></i>Profile</a></li>
-                    <li class="menu-item"><a class="menu-item__link" href="#"><i class="fa-solid fa-gear menu-icon"></i>Setting</a></li>
-                </ul>
-            </div>
-        </sidebar>
-        <!-- Your main content starts here -->
-        <main class="main-content">
-            <div class="main-content-container">
-
-                <!-- PLEASE PUT CONTENT HERE -->
-                <div class="profile">
-                <div>  <img src="../images/profile.png" alt="" class="src"></div> 
-                   <div class="myprofile"><h1>My Profile</h1></div>
-                   <div class="username-email">
-                  <div class="username">  <p>Username</p>
-                  </div> 
-                  <div class="collinsbii"><p>Collins Bii</p></div>
-                <div class="email"> <p>Email</p></div>
-                  <div class="gmail"><p>collinsbii2022@gmail.com</p></div>
-                  </div>
-                <div class="logout"> <a href="../pages/log-in.html"><button >Log Out</button></a></div>
-                 <!-- <span class="myprofile"> <h1>My Profile</h1></span> -->
+      <!-- This is the side menu -->
+      <sidebar class="menu">
+        <div class="menu__container">
+          <ul class="menu-item__list">
+            <li class="menu-item">
+              <a class="menu-item__link" href="./home.html"
+                ><i class="fa-solid fa-house menu-icon"></i>Home</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-item__link" href="./courses.html"
+                ><i class="fa-solid fa-chalkboard-user menu-icon"></i>Courses</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-item__link" href="./community.html"
+                ><i class="fa-solid fa-users-line menu-icon"></i>Community</a
+              >
+            </li>
+            <hr />
+            <li class="menu-item menu-item-active">
+              <a class="menu-item__link" id="menu-item__link-active" href="#"
+                ><i class="fa-solid fa-user fa-solid-active"></i>Profile</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-item__link" href="#"
+                ><i class="fa-solid fa-gear menu-icon"></i>Setting</a
+              >
+            </li>
+          </ul>
+        </div>
+      </sidebar>
+      <!-- Your main content starts here -->
+      <main class="main-content">
+        <div class="main-content-container">
+          <!-- PLEASE PUT CONTENT HERE -->
+          <div class="profile-container">
+            <div class="profile">
+              <div><img src="../images/profile.png" alt="" class="src" /></div>
+              <h1 class="myprofile">My Profile</h1>
+              <div class="profile-details">
+                <p>Username</p>
+                <p id="edit-background">Collins Bii</p>
+                <p>Email</p>
+                <p id="edit-background">collinsbii2022@gmail.com</p>
+              </div>
+                <div class="logout">
+                  <a href="../pages/log-in.html"><button>Log Out</button></a>
                 </div>
+              </div>
+              </div>
+              
             </div>
-
-        </main>
-        <!-- Your main content ends here -->
+          </div>
+        </div>
+      </main>
+      <!-- Your main content ends here -->
     </section>
   </body>
 </html>
