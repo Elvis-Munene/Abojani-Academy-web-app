@@ -642,7 +642,7 @@ hr{
 
 .recommended-stock-container {
   background-color: #fff;
-  margin: 1.2rem 0;
+  margin-bottom: 1.2rem;
   padding: 1.2rem;
   border-radius: 0.6rem;
   box-shadow: 0px 4px 7px 1px #00000040;
@@ -714,15 +714,23 @@ hr{
     width: 100%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 1rem;
-    padding: 1rem 1rem;
+    column-gap: 1.2rem;
+    padding: 1.6rem 1rem;
 }
+
+.community-topics-main {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 0.9rem;
+  color: #575757;
+}
+
 
 .picha {
     display: flex;
     width: 100%;
     padding: 1rem 1rem;
-    gap: 1rem;
+    gap: 2rem;
     /* gap: 5%; */
     
 }
@@ -747,16 +755,45 @@ hr{
     width: 100%;
 }
 
-.explore {
+.explore-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem 0;
-    font-size: medium;
-    font-weight: 400;
+    padding: 1.2rem 1rem;
+}
+.explore{
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+}
+.see-all {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+
+.explore-div > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.course-main-name {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+.course-main-price{
+  font-size: 1rem;
+}
+
+.instructor-main {
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
 }
 .picha1 > img{
 width: 100%;
+}
+.picha2 {
+  gap: 1rem;
+
 }
 .picha2 > img{
     width: 100%;
