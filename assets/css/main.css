@@ -106,6 +106,7 @@ body {
 
 .menu {
     background-color: var(--primary-color);
+
 }
 
 .main-content__section {
@@ -120,9 +121,8 @@ body {
 
 .main-content-container {
     margin-right: 2rem;
-    /* background-color: green; */
     width: 90%;
-    height: 100%;
+    height: fit-content;
 
 }
   
