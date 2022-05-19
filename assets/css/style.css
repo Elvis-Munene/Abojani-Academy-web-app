@@ -878,25 +878,32 @@ color: red;
     padding-top: 2rem;
 }
 .filling-forms{
-    padding-left: 60px;
+     padding: 20px;
     background-color: white;
-    height: fit-content;
+    height: 100%;
     width: fit-content;
+    /* margin-top: 60px; */
 }
 .form-fill{
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 10px;
+    height: 100%;
     
+}
+.form-fill > input{
+  padding: 5px;
+  border-color: #f17425;
+  border-radius: 6px;
 }
 
 .image-pain{
     padding-right: 20px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .image-plus-login{
-    align-items: flex-start;
     display: flex;
+    padding-bottom: 20px;
 }
 .price-text{
     padding-left: 1rem;
@@ -909,6 +916,7 @@ color: red;
     border: none;
     box-shadow: 0px 4px 4px 0px #00000040;
     cursor: pointer;
+    width: 100%;
 }
 
 .confirm-payment:hover{
@@ -925,8 +933,29 @@ color: red;
     top: 427px;
     border-radius: nullpx;
     font-weight: 600;
-
-
+}
+.small-icon > img {
+  height: 60px;
+  
+}
+.small-icon{
+  padding: 10px;
+}
+.further-right-text{
+  padding: 10px;
+}
+.middle-text{
+  padding: 10px;
+}
+.big-button{
+  width: 60%;
+  margin-bottom: 20px;
+}
+.middle-text > p{
+  padding-top: 6px;
+}
+.further-right-text > h1{
+  padding-top: 6px;
 }
 /* add-to-cartpage3.html */
 .main-content--{
@@ -947,5 +976,5 @@ color: red;
 .purchase-icon-green{
     padding: 1rem;
 }
-
+.
 
