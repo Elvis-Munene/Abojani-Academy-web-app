@@ -130,19 +130,30 @@
     color: var( --secondary-color);
 }
 
-#btn-all, #btn-enrolled{
-    width: 100px;
-    background-color: #f2f2f2;
+#btn-all{
+    width: 100%;
+    color: #f17425;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#btn-enrolled{
+    color: #40b551;
+    border: none;
+
+}
+
+#btn-all:hover{
+    width: 100%;
+    color: #40b551;
     border: none;
     padding: 5px;
 }
 
-#btn-all:hover, #btn-enrolled:hover{
-    width: 100px;
-    background-color: #f17425;
+#btn-enrolled:hover{
+    color: #f17425;
     border: none;
-    padding: 5px;
-    color: #ffff;
 }
 
 hr{

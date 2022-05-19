@@ -1,131 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/queries.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <title>Abojani Academy</title>
-  </head>
-  <body>
-    <section class="navbar">
-      <div class="container">
-        <div class="navbar-container">
-          <div class="logo-box">
-            <img
-              src="../images/Abojani-Academy-logo.png"
-              alt="Abojani Academy Logo"
-              class="logo"
-            />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/queries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <title>Abojani Academy</title>
+</head>
+
+<body>
+  <section class="navbar">
+    <div class="container">
+      <div class="navbar-container">
+        <div class="logo-box">
+          <img src="../images/Abojani-Academy-logo.png" alt="Abojani Academy Logo" class="logo" />
+        </div>
+        <div class="nav-items">
+          <i class="fa-solid fa-cart-plus"></i>
+          <i class="fa-solid fa-bell"></i>
+          <div class="username-box">
+            <i class="fa-solid fa-user"></i>
+            <a href="#" class="profile-link">Collins Bii</a>
           </div>
-          <div class="nav-items">
-            <i class="fa-solid fa-cart-plus"></i>
-            <i class="fa-solid fa-bell"></i>
-            <div class="username-box">
-              <i class="fa-solid fa-user"></i>
-              <a href="#" class="profile-link">Collins Bii</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="main-content__section">
+    <!-- This is the side menu -->
+    <sidebar class="menu">
+      <div class="menu__container">
+        <ul class="menu-item__list">
+          <li class="menu-item">
+            <a class="menu-item__link" href="./home.html"><i class="fa-solid fa-house menu-icon"></i>Home</a>
+          </li>
+          <li class="menu-item menu-item-active">
+            <a class="menu-item__link" id="menu-item__link-active" href="./courses.html"><i
+                class="fa-solid fa-chalkboard-user fa-solid-active"></i>Courses</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="./community.html"><i
+                class="fa-solid fa-users-line menu-icon"></i>Community</a>
+          </li>
+          <hr />
+          <li class="menu-item">
+            <a class="menu-item__link" href="./profile.html"><i class="fa-solid fa-user menu-icon"></i>Profile</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item__link" href="#"><i class="fa-solid fa-gear menu-icon"></i>Setting</a>
+          </li>
+        </ul>
+      </div>
+    </sidebar>
+    <!-- Your main content starts here -->
+    <main class="main-content">
+      <div class="main-content-container">
+        <!-- PLEASE PUT CONTENT HERE -->
+        <div class="courseMain">
+          <h1>Enrolled Course</h1>
+          <div class="courseMainTop">
+            <div class="courseMainTop-Left">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ytw_qqgRBOY"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="progressBar">
+                <div class="videoPlayed"></div>
+              </div>
+            </div>
+            <div class="courseMainTop-Right">
+              <h1>Stock Analysis</h1>
+              <br />
+              <p>
+                Get accurate information on 6000+ stocks including at the
+                <br />
+                companies in the S&P 500 index. See stock prices, news,
+                financials, forecasts, charts, and many more.
+              </p>
+              <br /><br />
+              <h3>Instructors</h3>
+              <br />
+              <p>James Omwami, Paul Gadot</p>
+              <br />
+              <h3>Enrolled Students</h3>
+              <br />
+              <p>10K+</p>
+              <br />
+              <a href="./coursespage2.html" id="btn-watch">Cotinue with Course</a>
+            </div>
+          </div>
+
+          <div class="courseMainBottom">
+            <h1>All Courses</h1>
+
+            <div class="coursesDetailsMain">
+              <div class="coursesRow">
+                <img src="../images/Rectangle 9.png" alt="" />
+
+                <div class="courseDetails">
+                  <h3>
+                    <a id="mylink" class="mylink" href="./coursespage2.html">Stock Analysis</a>
+                  </h3>
+
+                  <p>James Omwami, Paul Gadot</p>
+                  <br />
+                  <h3>KES 25,000</h3>
+                </div>
+              </div>
+
+              <div class="coursesRow">
+                <img src="../images/Rectangle 1640.png" alt="" />
+                <div class="courseDetails">
+                  <h3>
+                    <a id="mylink" class="mylink" href="./coursespage3.html">Investing Masterclass</a>
+                  </h3>
+                  <p>Ezekiel Mbuvi, Mary Ann</p>
+                  <br />
+                  <h3>KES 50,000</h3>
+                </div>
+              </div>
+
+              <div class="coursesRow">
+                <img src="../images/Rectangle 1641.png" alt="" />
+                <div class="courseDetails">
+                  <h3>
+                    <a id="mylink" class="mylink" href="./coursespage3i.html">Real Estate Masterclass</a>
+                  </h3>
+                  <p>James Omwami, Ivy Muthoni</p>
+                  <br />
+                  <h3>KES 100,000</h3>
+                </div>
+              </div>
+
+              <div class="coursesRow">
+                <img src="../images/Rectangle 1642.png" alt="" />
+                <div class="courseDetails">
+                  <h3>
+                    <a id="mylink" class="mylink" href="./coursespage3ii.html">Financial Analysis</a>
+                  </h3>
+                  <p>Christine Njeri, Paul Gadot</p>
+                  <br />
+                  <h3>KES 55,000</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="main-content__section">
-        
-        <!-- This is the side menu -->
-        <sidebar class="menu">
-            <div class="menu__container">
-                <ul class="menu-item__list">
-                    <li class="menu-item"><a class="menu-item__link" href="./home.html"><i class="fa-solid fa-house menu-icon"></i>Home</a></li>
-                    <li class="menu-item menu-item-active"><a class="menu-item__link" id="menu-item__link-active" href="./courses.html"><i class="fa-solid fa-chalkboard-user fa-solid-active"></i>Courses</a></li>
-                    <li class="menu-item"><a class="menu-item__link" href="./community.html"><i class="fa-solid fa-users-line menu-icon"></i>Community</a></li>
-                    <hr>
-                    <li class="menu-item"><a class="menu-item__link" href="./profile.html"><i class="fa-solid fa-user menu-icon"></i>Profile</a></li>
-                    <li class="menu-item"><a class="menu-item__link" href="#"><i class="fa-solid fa-gear menu-icon"></i>Setting</a></li>
-                </ul>
-            </div>
-        </sidebar>
-        <!-- Your main content starts here -->
-        <main class="main-content">
-            <div class="main-content-container">
-                <!-- PLEASE PUT CONTENT HERE -->
-                <div class="courseMain">
+    </main>
+    <!-- Your main content ends here -->
+  </section>
+  <script src="../js/script.js"></script>
+</body>
 
-                  <h1>Enrolled Course</h1>
-                  <div class="courseMainTop">
-                    <div class="courseMainTop-Left">
-                      <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ytw_qqgRBOY" title="YouTube video player" 
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                      <div class="progressBar"> <div class="videoPlayed"></div> </div>
-                    </div>
-                    <div class="courseMainTop-Right">
-                      <h1>Stock Analysis</h1> <br>
-                      <p>Get accurate information on 6000+ stocks including at the <br> companies in the S&P 500 index.
-                        See stock prices, news, financials, forecasts, charts, and many more.</p> <br><br>
-                      <h3>Instructors</h3> <br>
-                      <p>James Omwami, Paul Gadot</p> <br>
-                      <h3>Enrolled Students</h3> <br>
-                      <p>10K+</p> <br>
-                      <a href="./coursespage2.html" id="btn-watch">Cotinue with Course</a>
-                    </div>
-                  </div>
-  
-                  <div class="courseMainBottom">
-                    <h1>All Courses</h1>
-
-                    <div class="coursesDetailsMain">
-                      <div class="coursesRow">
-                        <img src="../images/Rectangle 9.png" alt="">
-
-                        <div class="courseDetails">
-                          <h3><a id="mylink" class="mylink" href="./coursespage2.html">Stock Analysis</a></h3>
-                       
-                          <p>James Omwami, Paul Gadot</p> <br>
-                          <h3>KES 25,000</h3>
-                        </div>
-                      </div>
-    
-                      <div class="coursesRow">
-                        <img src="../images/Rectangle 1640.png" alt="">
-                        <div class="courseDetails">
-                          <h3><a id="mylink" class="mylink" href="./coursespage3.html">Investing Masterclass</a></h3>
-                          <p>Ezekiel Mbuvi, Mary Ann</p> <br>
-                          <h3>KES 50,000</h3>
-                        </div>
-                      </div>
-    
-                      <div class="coursesRow">
-                        <img src="../images/Rectangle 1641.png" alt="">
-                        <div class="courseDetails">
-                          <h3><a id="mylink" class="mylink" href="./coursespage3i.html">Real Estate Masterclass</a></h3> 
-                          <p>James Omwami, Ivy Muthoni</p> <br>
-                          <h3>KES 100,000</h3>
-                        </div>
-                      </div>
-    
-                      <div class="coursesRow">
-                        <img src="../images/Rectangle 1642.png" alt="">
-                        <div class="courseDetails">
-                          <h3><a id="mylink" class="mylink" href="./coursespage3ii.html">Financial Analysis</a></h3> 
-                          <p>Christine Njeri, Paul Gadot</p> <br>
-                          <h3>KES 55,000</h3>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-            </div>
-        </main>
-        <!-- Your main content ends here -->
-    </section>
-    <script src="../js/script.js"></script>
-  </body>
 </html>
