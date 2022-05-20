@@ -1,5 +1,5 @@
 # Abojani Academy Web App
-## By Dennis Kimathi | Elvis Gitau | Vincent Okoth | Joan Chebet
+## By Dennis Kimathi | Elvis Gitau | Vincent Nduri | Joan Chebet
 
 ## Screenshot
  ![image](./assets/images/Welcome-screen.png)
