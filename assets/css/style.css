@@ -5,9 +5,15 @@
 
 /* Courses Main Page Start Section*/
 
+.main-content-container{
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .mylink{
     font-size: 14px;
 }
+
 .courseMain{
     width: 100%;
 }
